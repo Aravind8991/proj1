@@ -1,0 +1,23 @@
+Centralized Version Control
+  -A centralized version control system works on a client-server model.
+  -There is a single, (centralized) master copy of the code base, and pieces of the code that are being worked on are typically locked, (or “checked out”) 
+  -so that only one developer is allowed to work on that part of the code at any one time.
+ 
+   -Access to the code base and the locking is controlled by the server.
+  - When the developer checks their code back in, the lock is released so it’s available for others to check out.
+   -Probably the best known examples of centralized VCS systems are CVS and Subversion.
+
+Distributed Version Control
+   -These systems work on a peer-to-peer model: the code base is distributed amongst the individual developers’ computers.
+   - In fact, the entire history of the code is mirrored on each system. 
+   -examples of distributed VCS’s are Git and Mercurial.
+
+Git
+ -md stands for mugdown.
+ -Git (/ɡɪt/)[7] is a distributed version-control system for tracking changes in source code during software development.[8] It is designed for coordinating work among programmers,
+  but it can be used to track changes in any set of files. 
+  Its goals include speed,[9] data integrity,[10] and support for distributed, non-linear workflows.[11]
+
+     Git was created by Linus Torvalds in 2005 for development of the Linux kernel,
+  with other kernel developers contributing to its initial development.[12] 
+    Its current maintainer since 2005 is Junio Hamano.
